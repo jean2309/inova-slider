@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/inova-slider",
+  "version": "0.1.0",
+  "title": "Inova Slider",
+  "category": "widgets",
+  "icon": "format-gallery",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "qtdImagens": {
+      "type": "number",
+      "default": 3
+    },
+    "sliderLoop": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "inova-slider",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

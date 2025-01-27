@@ -1,0 +1,50 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-inova-slider {
+	border: 1px solid tomato;
+	padding: .625rem;
+
+	.ivs-slider-preview {
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			align-items: stretch;
+			justify-content: center;
+			gap: .625rem;
+			overflow-x: auto;
+
+			li {
+				min-width: calc(25% - .625rem);
+				max-width: calc(25% - .625rem);
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.btn-adicionar-imagens {
+		background-color: green;
+		color: #fff;
+		margin-bottom: 1.25rem;
+		border-radius: 5px;
+
+		&:hover {
+			color: #fff;
+			opacity: .9;
+		}
+	}
+
+}
